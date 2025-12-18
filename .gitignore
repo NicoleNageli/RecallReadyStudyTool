@@ -1,0 +1,4 @@
+# .env has OpenAI API key
+*.env
+
+.streamlit/
