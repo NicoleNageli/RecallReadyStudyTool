@@ -37,9 +37,8 @@ st.write(
 # === INPUT PREPROCESSING ===
 # shorten prompts, break large text into small chunks
 notes = st.text_area(
-    "Paste notes or transcript:",
     height=300,
-    placeholder="Paste lecture notes, textbook excerpts, or transcripts here..."
+    placeholder="Paste notes here..."
 )
 char_count = len(notes)
 st.caption(f"Character Count: {char_count} / 20,000")
